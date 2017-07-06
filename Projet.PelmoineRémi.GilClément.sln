@@ -1,0 +1,65 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Model.Console.Projet", "ConsoleApplication1\Model.Console.Projet.csproj", "{AE5B122D-2852-4636-A54F-73E98D5063CD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Model.Projet", "Metier\Model.Projet.csproj", "{CBE086AA-4FFD-41A3-A0B0-0C5C9EBB9B1C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Console", "Console", "{A119152A-35AB-4F6F-9B22-5332B39AFAAF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Server", "Server", "{3596A913-FDAC-46BD-8E47-CBD821621497}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test", "Test\Test.csproj", "{DDB0E120-93BA-4EFB-A919-76E0A56116E6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Model.BusinessLayer", "Model.BusinessLayer\Model.BusinessLayer.csproj", "{982BE55B-F586-41B6-84A1-264F39207311}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Client", "Client", "{FE87C18C-52C3-409E-A657-A0A4EBC3F040}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPFApp", "WPFApp\WPFApp.csproj", "{49D47FD6-450C-4CA7-BBDD-69B757CA4D69}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApp", "WebApp\WebApp.csproj", "{B0706591-58CD-4357-B20A-2BFD0232CB5A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AE5B122D-2852-4636-A54F-73E98D5063CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE5B122D-2852-4636-A54F-73E98D5063CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE5B122D-2852-4636-A54F-73E98D5063CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE5B122D-2852-4636-A54F-73E98D5063CD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CBE086AA-4FFD-41A3-A0B0-0C5C9EBB9B1C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CBE086AA-4FFD-41A3-A0B0-0C5C9EBB9B1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CBE086AA-4FFD-41A3-A0B0-0C5C9EBB9B1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CBE086AA-4FFD-41A3-A0B0-0C5C9EBB9B1C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DDB0E120-93BA-4EFB-A919-76E0A56116E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DDB0E120-93BA-4EFB-A919-76E0A56116E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DDB0E120-93BA-4EFB-A919-76E0A56116E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DDB0E120-93BA-4EFB-A919-76E0A56116E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{982BE55B-F586-41B6-84A1-264F39207311}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{982BE55B-F586-41B6-84A1-264F39207311}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{982BE55B-F586-41B6-84A1-264F39207311}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{982BE55B-F586-41B6-84A1-264F39207311}.Release|Any CPU.Build.0 = Release|Any CPU
+		{49D47FD6-450C-4CA7-BBDD-69B757CA4D69}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49D47FD6-450C-4CA7-BBDD-69B757CA4D69}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49D47FD6-450C-4CA7-BBDD-69B757CA4D69}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49D47FD6-450C-4CA7-BBDD-69B757CA4D69}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B0706591-58CD-4357-B20A-2BFD0232CB5A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0706591-58CD-4357-B20A-2BFD0232CB5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0706591-58CD-4357-B20A-2BFD0232CB5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0706591-58CD-4357-B20A-2BFD0232CB5A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{AE5B122D-2852-4636-A54F-73E98D5063CD} = {A119152A-35AB-4F6F-9B22-5332B39AFAAF}
+		{CBE086AA-4FFD-41A3-A0B0-0C5C9EBB9B1C} = {3596A913-FDAC-46BD-8E47-CBD821621497}
+		{982BE55B-F586-41B6-84A1-264F39207311} = {3596A913-FDAC-46BD-8E47-CBD821621497}
+		{49D47FD6-450C-4CA7-BBDD-69B757CA4D69} = {FE87C18C-52C3-409E-A657-A0A4EBC3F040}
+		{B0706591-58CD-4357-B20A-2BFD0232CB5A} = {FE87C18C-52C3-409E-A657-A0A4EBC3F040}
+	EndGlobalSection
+EndGlobal

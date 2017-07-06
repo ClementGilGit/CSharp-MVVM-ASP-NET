@@ -1,0 +1,25 @@
+﻿@using Metier.Entities
+@model List<Postulation>
+@{
+    ViewBag.Title = "PostulationList";
+}
+
+<h2>PostulationList</h2>
+
+
+@foreach (var postulation in Model)
+{
+            <span>Info Employe:</span>
+            <span>@postulation.Employe.EmpNom</span>
+            <span>@postulation.Employe.EmpPrenom</span>
+            <span>@postulation.PosDate</span>
+            <br/>
+            <br/>
+            <span>Info Offre</span>
+            <span>@postulation.Offre.OffreIntitule</span>
+            <span>@postulation.Offre.OffreSalaire</span>
+            <span>@postulation.Offre.OffreDescription</span>
+            <hr/>
+}
+
+

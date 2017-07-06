@@ -1,0 +1,28 @@
+﻿@using Metier.Entities
+@model List<Offre>
+@{
+    ViewBag.Title = "OffreHome";
+}
+
+<h2>Index</h2>
+@using (Html.BeginForm("Rechercher","Offre"))
+{
+    <div>
+        <fieldset>
+            <legend>Intitule Offre</legend>
+            @Html.TextBox("recherche", "")
+            <input type="submit" value="Rechercher"/>
+        </fieldset>
+    </div>
+}
+
+
+@foreach (var offre in Model)
+{
+    <a href="/OffreDetail/AfficherDetail/@offre.OffreId">@offre.OffreIntitule</a>
+    <hr />
+}
+
+
+    
+

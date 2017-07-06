@@ -1,0 +1,43 @@
+﻿@using Metier.Entities
+@model List<Offre>
+@{
+    ViewBag.Title = "OffreDetail";
+}
+
+<h2>OffreDetail</h2>
+
+
+@foreach (var offre in Model)
+{
+    <div style="border: 2px solid black">
+        <h2>@offre.OffreIntitule</h2>
+        <span>@offre.OffreId</span>
+        <span>@offre.OffreDate</span>
+        <span>@offre.OffreSalaire</span>
+        <span>@offre.OffreResponsable</span>
+        <p>@offre.OffreDescription</p>
+        
+        <h2>Liste des Postulants:</h2>
+        @foreach (var postulation in offre.Postulations)
+        {
+            <br/>
+            <span>@postulation.Employe.EmpNom</span>
+            <span>@postulation.Employe.EmpPrenom</span>
+            <span>@postulation.PosDate</span>
+            <br/>
+            //<span>Statut: @offre.Statut.StaLibelle</span>
+        }
+        <div>
+            @using (@Html.BeginForm("Postuler","OffreDetail", FormMethod.Post))
+            {
+                @Html.Hidden("EmployeId", "1");
+                @Html.Hidden("OffreId", offre.OffreId);
+                <input type="submit" value="Postuler" />
+            }
+        </div>
+    </div>
+}
+<hr />
+
+
+
